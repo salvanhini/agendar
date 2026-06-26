@@ -56,8 +56,7 @@
       headers: {
         apikey: SUPABASE_ANON_KEY,
         Authorization: 'Bearer ' + SUPABASE_ANON_KEY,
-        'Content-Type': 'application/json',
-        Prefer: 'return=representation'
+        'Content-Type': 'application/json'
       },
       ...options
     }).then(function(res){
